@@ -22,6 +22,7 @@ public class FilmeDAO {
 
 	public Filme buscarFilme(int id) throws IOException{
 		return manager.find(Filme.class, id);
+		
 	}
 	
 	public void atualizarFilme(Filme filme) throws IOException{
